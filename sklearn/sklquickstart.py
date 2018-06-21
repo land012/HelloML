@@ -5,3 +5,5 @@ digits = datasets.load_digits()
 
 print(type(iris))
 print(type(digits))
+
+print(digits.data)

@@ -6,4 +6,7 @@ digits = datasets.load_digits()
 print(type(iris))
 print(type(digits))
 
-print(digits.data)
+data = digits.data
+target = digits.target
+print(type(data))
+print(type(target))

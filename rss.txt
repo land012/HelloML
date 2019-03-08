@@ -1,0 +1,3 @@
+http://rss.sina.com.cn/tech/rollnews.xml
+http://www.ftchinese.com/rss/news
+http://www.xinhuanet.com/tech/news_tech.xml

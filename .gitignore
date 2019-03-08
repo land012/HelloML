@@ -6,3 +6,4 @@ target/
 *.jar
 MANIFEST.MF
 *.pyc
+/pytorch/lenetdemo/data

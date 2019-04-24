@@ -1,6 +1,7 @@
 # coding: utf-8
 """
 # Created by xudazhou at 2019/3/7
+卷积神经网络
 """
 import loadingcifar10
 import lenetdemo2

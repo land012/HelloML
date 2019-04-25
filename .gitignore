@@ -7,3 +7,4 @@ target/
 MANIFEST.MF
 *.pyc
 /pytorch/lenetdemo/data
+/cifar10data

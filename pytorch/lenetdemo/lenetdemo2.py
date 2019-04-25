@@ -1,4 +1,7 @@
 # coding: utf-8
+"""
+用于手写体字符识别的非常高效的卷积神经网络
+"""
 import torch.nn as nn
 import torch.nn.functional as F
 

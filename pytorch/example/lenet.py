@@ -37,16 +37,16 @@ net = Net()
 net
 
 # 以下代码是为了看一下我们需要训练的参数的数量
-print net
+print(net)
 params = list(net.parameters())
 
 k=0
 for i in params:
     l =1
-    print "该层的结构："+str(list(i.size()))
+    print("该层的结构："+str(list(i.size())))
     for j in i.size():
         l *= j
-    print "参数和："+str(l)
+    print("参数和："+str(l))
     k = k+l
 
-print "总参数和："+ str(k)
+print("总参数和：" + str(k))

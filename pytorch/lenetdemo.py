@@ -31,9 +31,19 @@ class Net(nn.Module):
         return num_features
 
 net = Net()
+"""
+Net(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=400, out_features=120, bias=True)
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+"""
 print(net)
 
 params = list(net.parameters())
+# print(params)
 print(len(params))  # 10
 print(params[0].size())  # torch.Size([6, 1, 5, 5])
 

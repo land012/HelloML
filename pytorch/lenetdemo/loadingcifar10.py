@@ -26,9 +26,13 @@ if __name__ == "__main__":
 
     dataiter = iter(trainloader)
     images, labels = dataiter.next()
+    print(type(images))  # <class 'torch.Tensor'>
 
     img = torchvision.utils.make_grid(images) / 2 + 0.5
     npimg = img.numpy()
+    print(type(npimg))  # <class 'numpy.ndarray'>
+
+    # 显示图片
     plt.imshow(np.transpose(npimg, (1, 2, 0)))
     plt.show()
 
